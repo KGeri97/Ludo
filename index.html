@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ki nevet a végén</title>
+        <link rel="stylesheet" href="style/index.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js" integrity="sha512-rMaqGbYalDaQz0lWNF2L8DHPtf4NW+gSZomExS0LcsNyRS4Rmj21+dt97XfXCZE/E569eX72Bh//Jt1EpStgiA==" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+    </head>
+
+    <body>
+        <div id="menu">
+            <div id="chooseGame">
+                <h1>Choose a game</h1>
+                <div id="ludo" class="gameCard" onclick="setGame('ludo')">Ludo</div>
+            </div>
+
+            <div id="ludoSettings">
+                <label for="board">Choose a board</label>
+                <select name="board" id="board">
+                    <option value="classic">Classic</option>
+                </select>
+
+                <div id="playerSetup">
+                    <div id="playerRed">
+                        <label for="playerName1" class="nameId">Red</label>
+                        <input type="text" id="playerName1" name="playerName1" value="Player 1">
+
+                        <select name="playerAI1" id="playerAI1">
+                            <option value="player">Player</option>
+                            <option value="ai">AI</option>
+                            <option value="off">Off</option>
+                        </select>
+                    </div>
+                    
+                    <div id="playerBlue" class="nameId">
+                        <label for="playerName2">Blue</label>
+                        <input type="text" id="playerName2" name="playerName2" value="Player 2">
+
+                        <select name="playerAI2" id="playerAI2">
+                            <option value="player">Player</option>
+                            <option value="ai">AI</option>
+                            <option value="off">Off</option>
+                        </select>
+                    </div>
+                    
+                    <div id="playerYellow" class="nameId">
+                        <label for="playerName3">Yellow</label>
+                        <input type="text" id="playerName3" name="playerName3" value="Player 3">
+
+                        <select name="playerAI3" id="playerAI3">
+                            <option value="player">Player</option>
+                            <option value="ai">AI</option>
+                            <option value="off">Off</option>
+                        </select>
+                    </div>
+                    
+                    <div id="playerGreen" class="nameId">
+                        <label for="playerName4">Green</label>
+                        <input type="text" id="playerName4" name="playerName4" value="Player 4">
+
+                        <select name="playerAI4" id="playerAI4">
+                            <option value="player">Player</option>
+                            <option value="ai">AI</option>
+                            <option value="off">Off</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="backLudoSettings" class="back" onclick="">Back</div>
+                <div id="play" onclick="setSettings()">Play</div>
+            </div>
+        </div>
+        
+        <script>
+            menu("chooseGame");
+        </script>
+    </body>
+</html>

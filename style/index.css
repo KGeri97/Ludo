@@ -1,0 +1,147 @@
+/* body {
+    background-color: rgba(255, 208, 0, 0.473);
+    font-family: Helvetica;
+    height: 890px;
+}
+
+#menu {
+    margin: auto;
+    height: 100%;
+    width: 80%;
+}
+
+#chooseBoard {
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 20px;
+    color: rgb(17, 0, 255);
+    height: 100%;
+    margin: auto;
+    padding: 0% 0% 2% 0%;
+    width: 100%;
+}
+.menuHeader {
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    color: rgb(17, 0, 255);
+    text-align: center;
+}
+
+.boardCard {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 2%;
+    max-height: 40%;
+    padding: 2%;
+    width: 20%;
+}
+.boardCard:hover {
+    background-color: rgb(107, 255, 70);
+    cursor: pointer;
+}
+
+.boardCard > img {
+    max-width: 100%;
+}
+
+.boardCard > h1 {
+    text-align: center;
+}
+
+#playerMenu {
+    background-color: rgb(0, 0, 255);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: auto;
+    padding: 0% 0% 0% 0%;
+    position: relative;
+    width: 80%;
+}
+
+.playerNumberFlexbox {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 35%;
+    margin: 2%;
+}
+
+.playerNumber {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex: 1;
+    font-size: 40pt;
+    height: 80%;
+    justify-content: center;
+    margin: 5%;
+    text-align: center;
+    width: 40%;
+}
+
+.playerNumber:hover {
+    background-color: rgb(107, 255, 70);
+    cursor: pointer;
+}
+
+.back {
+    background-color: white;
+    border-radius: 0 0 0 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 10%;
+}
+
+.back:hover {
+    background-color: rgb(107, 255, 70);
+    cursor: pointer;
+}
+
+#playerName {
+    background-color: rgb(0, 255, 0);
+    border: none;
+    border-radius: 20px;
+    color: rgb(17, 0, 255);
+    height: 100%;
+    margin: auto;
+    padding: 0% 0% 0% 0%;
+    position: relative;
+    width: 80%;
+}
+
+.playerNameDiv {
+    text-align: center;
+    margin: 3%;
+}
+
+.playerNameDiv > input{
+    height: 50px;
+    font-size: 17pt;
+}
+.playerNameDiv > select{
+    height: 55px;
+    font-size: 17pt;
+}
+
+#play {
+    background-color: white;
+    border-radius: 0 0 20px 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    width: 10%;
+}
+
+#play:hover {
+    background-color: rgb(107, 255, 70);
+    cursor: pointer;
+} */

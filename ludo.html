@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ki nevet a végén</title>
+        <link rel="stylesheet" href="style/index.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js" integrity="sha512-rMaqGbYalDaQz0lWNF2L8DHPtf4NW+gSZomExS0LcsNyRS4Rmj21+dt97XfXCZE/E569eX72Bh//Jt1EpStgiA==" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <script src="js/ludo.js"></script>
+    </head>
+
+    <body>
+        <!-- These are debug buttons. If pressed you "roll" the corresponding number. Also overrides the roll limit. -->
+        <button onclick="dice.roll(1)">1</button>
+        <button onclick="dice.roll(2)">2</button>
+        <button onclick="dice.roll(3)">3</button>
+        <button onclick="dice.roll(4)">4</button>
+        <button onclick="dice.roll(5)">5</button>
+        <button onclick="dice.roll(6)">6</button>
+        <div id="canvas" style="display: inline-block;">
+            
+        </div>
+        <button id="ko" onclick="knockOut()" style="display: none; vertical-align: top;">Knock out</button>
+        <button onclick="endTurn()" style="display: inline-block; vertical-align: top;">End Turn</button>
+    </body>
+</html>
